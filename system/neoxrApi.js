@@ -22,17 +22,17 @@ module.exports = class NeoxrApi {
    }
 
    ig = async (url) => {
-      let json = await Func.fetchJson(this.baseUrl + '/ig?url=' + url + '&apikey=' + this.apiKey)
+      let json = await Func.fetchJson(this.baseUrl + '/ig?url=' + url + '&apikey=QTnyev')
       return json
    }
 
    igs = async (url) => {
-      let json = await Func.fetchJson(this.baseUrl + '/igstory?url=' + url + '&apikey=' + this.apiKey)
+      let json = await Func.fetchJson(this.baseUrl + '/igstory?url=' + url + '&apikey=QTnyev')
       return json
    }
    
    igh = async (str) => {
-      let json = await Func.fetchJson(this.baseUrl + '/igh?url=' + str + '&apikey=' + this.apiKey)
+      let json = await Func.fetchJson(this.baseUrl + '/igh?url=' + str + '&apikey=QTnyev')
       return json
    }
    
